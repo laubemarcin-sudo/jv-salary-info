@@ -42,6 +42,6 @@ public class SalaryInfo {
             result.append(name).append(" - ").append(salary)
                     .append(System.lineSeparator());
         }
-        return result.toString().trim();
+        return result.toString();
     }
 }
