@@ -36,4 +36,3 @@ public class SalaryInfo {
         return result.toString().trim();
     }
 }
-}
