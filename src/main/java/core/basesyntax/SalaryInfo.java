@@ -16,7 +16,7 @@ public class SalaryInfo {
 
             for (String record : data) {
                 String[] fragments = record.split(" ");
-                if (name.eguals(fragments[1]))  {
+                if (name.equals(fragments[1]))  {
                     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
                     LocalDate recordDate = LocalDate.parse(fragments[0], formatter);
                     LocalDate fromDate = LocalDate.parse(dateFrom, formatter);
